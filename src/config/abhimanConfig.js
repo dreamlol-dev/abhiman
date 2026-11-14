@@ -228,17 +228,22 @@ export const abhimanConfig = {
     socialLinks: {
       instagram: {
         label: 'Instagram',
-        url: 'https://instagram.com/abhiman_foods',
-        placeholder: '@abhiman_foods',
+        url: 'https://www.instagram.com/abhimanbusiness?obrf=MXRhdzYzZ21lMmF0bw==',
+        placeholder: '@abhimanbusiness',
+      },
+      youtube: {
+        label: 'YouTube',
+        url: 'https://www.youtube.com/@AbhimanBusiness',
+        placeholder: '@AbhimanBusiness',
       },
       facebook: {
         label: 'Facebook',
-        url: 'https://facebook.com/abhimanfoods',
-        placeholder: 'fb.com/abhimanfoods',
+        url: 'https://www.facebook.com/abhimanbusiness',
+        placeholder: 'fb.com/abhimanbusiness',
       },
       amazonStore: {
         label: 'Amazon Storefront',
-        url: 'https://www.amazon.in/s?k=Abhiman+snacks',
+        url: 'https://www.amazon.in/s?k=Abhiman+banana+chips',
       },
     },
 

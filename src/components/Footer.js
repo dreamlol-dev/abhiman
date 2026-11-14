@@ -95,6 +95,8 @@ export function renderFooter() {
               <div class="flex items-center gap-2.5 sm:gap-3 text-xs text-amber-400 flex-wrap">
                 <a href="${contact.socialLinks.instagram.url}" target="_blank" rel="noopener noreferrer" class="hover:underline py-1">Instagram</a>
                 <span class="text-stone-600">•</span>
+                <a href="${contact.socialLinks.youtube.url}" target="_blank" rel="noopener noreferrer" class="hover:underline py-1">YouTube</a>
+                <span class="text-stone-600">•</span>
                 <a href="${contact.socialLinks.facebook.url}" target="_blank" rel="noopener noreferrer" class="hover:underline py-1">Facebook</a>
                 <span class="text-stone-600">•</span>
                 <a href="${amazon.brandStoreUrl}" target="_blank" rel="noopener noreferrer" class="hover:underline py-1">Amazon</a>

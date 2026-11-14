@@ -26,7 +26,10 @@ function injectJsonLd() {
         url: window.location.origin || 'https://abhimanfoods.in',
         logo: new URL(abhimanConfig.brand.logo, window.location.href).href,
         sameAs: [
-          abhimanConfig.amazon.brandStoreUrl
+          abhimanConfig.amazon.brandStoreUrl,
+          abhimanConfig.contact.socialLinks.instagram.url,
+          abhimanConfig.contact.socialLinks.youtube.url,
+          abhimanConfig.contact.socialLinks.facebook.url
         ]
       },
       ...abhimanConfig.products.map(product => ({

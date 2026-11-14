@@ -70,14 +70,27 @@ export function renderContactSection() {
 
                 <!-- Social Channels -->
                 <div class="p-3 rounded-xl bg-cream-50 border border-cream-200 space-y-2">
-                  <span class="block text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-charcoal-500">Social Media Channels</span>
+                  <span class="block text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-charcoal-500">Official Social Media</span>
                   <div class="space-y-1.5 text-xs text-charcoal-700">
-                    <a href="${contact.socialLinks.instagram.url}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-2 rounded-lg bg-white border border-cream-200 hover:border-amber-400 transition-colors">
-                      <strong class="text-maroon-900">Instagram</strong>
+                    <a href="${contact.socialLinks.instagram.url}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-2 rounded-lg bg-white border border-cream-200 hover:border-amber-400 transition-colors group">
+                      <span class="flex items-center gap-2 font-semibold text-maroon-900 group-hover:text-amber-600">
+                        <span class="text-pink-600 shrink-0">${icons.instagram}</span>
+                        Instagram
+                      </span>
                       <span class="text-charcoal-600 font-mono text-[11px] flex items-center gap-1">${contact.socialLinks.instagram.placeholder} ${icons.externalLink}</span>
                     </a>
-                    <a href="${contact.socialLinks.facebook.url}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-2 rounded-lg bg-white border border-cream-200 hover:border-amber-400 transition-colors">
-                      <strong class="text-maroon-900">Facebook</strong>
+                    <a href="${contact.socialLinks.youtube.url}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-2 rounded-lg bg-white border border-cream-200 hover:border-amber-400 transition-colors group">
+                      <span class="flex items-center gap-2 font-semibold text-maroon-900 group-hover:text-amber-600">
+                        <span class="text-red-600 shrink-0">${icons.youtube}</span>
+                        YouTube
+                      </span>
+                      <span class="text-charcoal-600 font-mono text-[11px] flex items-center gap-1">${contact.socialLinks.youtube.placeholder} ${icons.externalLink}</span>
+                    </a>
+                    <a href="${contact.socialLinks.facebook.url}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-2 rounded-lg bg-white border border-cream-200 hover:border-amber-400 transition-colors group">
+                      <span class="flex items-center gap-2 font-semibold text-maroon-900 group-hover:text-amber-600">
+                        <span class="text-blue-600 shrink-0">${icons.facebook}</span>
+                        Facebook
+                      </span>
                       <span class="text-charcoal-600 font-mono text-[11px] flex items-center gap-1">${contact.socialLinks.facebook.placeholder} ${icons.externalLink}</span>
                     </a>
                   </div>
