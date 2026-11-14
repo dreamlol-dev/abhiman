@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="chaatBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#701414"/>
+      <stop offset="40%" stop-color="#540D0D"/>
+      <stop offset="100%" stop-color="#2B0606"/>
+    </linearGradient>
+    <linearGradient id="goldGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="50%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <filter id="dropShadow2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Pouch Body -->
+  <g filter="url(#dropShadow2)">
+    <path d="M80 60 C80 50 110 40 200 40 C290 40 320 50 320 60 L335 430 C335 445 285 460 200 460 C115 460 65 445 65 430 Z" fill="url(#chaatBg)"/>
+    
+    <!-- Top Seal -->
+    <path d="M78 62 C78 52 110 42 200 42 C290 42 322 52 322 62 L320 78 C300 72 250 68 200 68 C150 68 100 72 80 78 Z" fill="#3D0909"/>
+    <line x1="80" y1="75" x2="320" y2="75" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+
+    <!-- Decorative Paisley/Spice Motif Top -->
+    <path d="M110 100 C150 82 250 82 290 100" fill="none" stroke="url(#goldGrad2)" stroke-width="2"/>
+    <polygon points="200,85 204,93 196,93" fill="#FDE68A"/>
+
+    <!-- Brand Name -->
+    <text x="200" y="132" font-family="'Georgia', serif" font-size="30" font-weight="bold" fill="#FFFBEB" text-anchor="middle" letter-spacing="3">ABHIMAN</text>
+    <text x="200" y="150" font-family="sans-serif" font-size="9" font-weight="600" fill="#FCD34D" text-anchor="middle" letter-spacing="2">SPECIAL HOMEMADE</text>
+
+    <!-- Divider -->
+    <line x1="120" y1="162" x2="280" y2="162" stroke="url(#goldGrad2)" stroke-width="1.5"/>
+
+    <!-- Product Title Banner -->
+    <rect x="65" y="174" width="270" height="52" rx="8" fill="#FFFBEB"/>
+    <text x="200" y="197" font-family="sans-serif" font-size="14" font-weight="900" fill="#7C1818" text-anchor="middle" letter-spacing="0.8">FRUIT CHAAT MASALA</text>
+    <text x="200" y="214" font-family="sans-serif" font-size="9.5" font-weight="600" fill="#9A3412" text-anchor="middle">Tangy • Spicy • Zesty Blend for Fruits &amp; Chaat</text>
+
+    <!-- Spice Bowl & Fruits Illustration Window -->
+    <ellipse cx="200" cy="295" rx="85" ry="55" fill="#FEF2F2" stroke="url(#goldGrad2)" stroke-width="3"/>
+    
+    <g transform="translate(200, 295)">
+      <!-- Traditional spice clay bowl -->
+      <path d="M-45 10 C-45 35 45 35 45 10 Z" fill="#991B1B" stroke="#7F1D1D" stroke-width="1.5"/>
+      <ellipse cx="0" cy="10" rx="45" ry="14" fill="#B45309"/>
+      <!-- Spice powder heap -->
+      <path d="M-35 10 C-20 -15 20 -15 35 10 Z" fill="#D97706"/>
+      <circle cx="-8" cy="-2" r="2" fill="#78350F"/>
+      <circle cx="12" cy="3" r="1.5" fill="#78350F"/>
+
+      <!-- Fresh fruits around bowl -->
+      <!-- Pomegranate seeds -->
+      <circle cx="-40" cy="-12" r="4.5" fill="#DC2626"/>
+      <circle cx="-48" cy="-5" r="4" fill="#B91C1C"/>
+      <circle cx="-36" cy="0" r="3.5" fill="#EF4444"/>
+
+      <!-- Lemon slice -->
+      <g transform="translate(45, -8)">
+        <circle cx="0" cy="0" r="14" fill="#FACC15" stroke="#CA8A04" stroke-width="1.5"/>
+        <circle cx="0" cy="0" r="10" fill="#FEF08A"/>
+        <line x1="-10" y1="0" x2="10" y2="0" stroke="#CA8A04" stroke-width="1"/>
+        <line x1="0" y1="-10" x2="0" y2="10" stroke="#CA8A04" stroke-width="1"/>
+      </g>
+
+      <!-- Apple wedge hint -->
+      <path d="M-20 -25 C-10 -35 5 -30 10 -20 C0 -15 -10 -15 -20 -25 Z" fill="#EF4444" stroke="#991B1B" stroke-width="1"/>
+
+      <!-- Fresh mint leaf -->
+      <path d="M-12 18 C-18 25 -10 32 0 28 C-2 22 -6 20 -12 18 Z" fill="#15803D"/>
+    </g>
+
+    <!-- Bottom Features & Amazon Badge -->
+    <rect x="95" y="370" width="210" height="24" rx="12" fill="#292524" opacity="0.85"/>
+    <text x="200" y="386" font-family="sans-serif" font-size="10" font-weight="600" fill="#FEF3C7" text-anchor="middle">Perfect on Fresh Fruits, Salads &amp; Snacks</text>
+
+    <!-- Amazon Strip -->
+    <rect x="120" y="405" width="160" height="28" rx="14" fill="#FF9900"/>
+    <text x="200" y="423" font-family="sans-serif" font-size="11" font-weight="700" fill="#111" text-anchor="middle">Available on Amazon.in</text>
+  </g>
+</svg>

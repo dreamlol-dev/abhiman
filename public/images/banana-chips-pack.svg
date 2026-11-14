@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pouchBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B1E1E"/>
+      <stop offset="40%" stop-color="#701414"/>
+      <stop offset="100%" stop-color="#4A0A0A"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="50%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Pouch Body -->
+  <g filter="url(#dropShadow)">
+    <!-- Pouch Shape -->
+    <path d="M80 60 C80 50 110 40 200 40 C290 40 320 50 320 60 L335 430 C335 445 285 460 200 460 C115 460 65 445 65 430 Z" fill="url(#pouchBg)"/>
+    
+    <!-- Pouch Top Seal with notch -->
+    <path d="M78 62 C78 52 110 42 200 42 C290 42 322 52 322 62 L320 78 C300 72 250 68 200 68 C150 68 100 72 80 78 Z" fill="#5A0F0F"/>
+    <line x1="80" y1="75" x2="320" y2="75" stroke="#D97706" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+
+    <!-- Decorative Top Arch -->
+    <path d="M95 105 C150 85 250 85 305 105" fill="none" stroke="url(#goldGrad)" stroke-width="2.5"/>
+    <circle cx="200" cy="90" r="4" fill="#FCD34D"/>
+
+    <!-- Brand Name -->
+    <text x="200" y="135" font-family="'Georgia', serif" font-size="32" font-weight="bold" fill="#FFFBEB" text-anchor="middle" letter-spacing="3">ABHIMAN</text>
+    <text x="200" y="155" font-family="sans-serif" font-size="10" font-weight="600" fill="#FBBF24" text-anchor="middle" letter-spacing="2.5">TRADITIONAL INDIAN FLAVOURS</text>
+
+    <!-- Golden Divider -->
+    <line x1="130" y1="168" x2="270" y2="168" stroke="url(#goldGrad)" stroke-width="1.5"/>
+
+    <!-- Product Title Banner -->
+    <rect x="90" y="182" width="220" height="44" rx="8" fill="#FFFBEB"/>
+    <text x="200" y="204" font-family="sans-serif" font-size="14" font-weight="800" fill="#7C1818" text-anchor="middle" letter-spacing="1">BANANA CHIPS</text>
+    <text x="200" y="219" font-family="sans-serif" font-size="10" font-weight="500" fill="#854D0E" text-anchor="middle">Crispy • Savoury • Authentic</text>
+
+    <!-- Product Window / Chips Graphic -->
+    <ellipse cx="200" cy="295" rx="85" ry="55" fill="#FEF3C7" stroke="url(#goldGrad)" stroke-width="3"/>
+    
+    <!-- Crispy Banana Chips Visual Elements -->
+    <g transform="translate(200, 295)">
+      <ellipse cx="-30" cy="-10" rx="28" ry="18" fill="#F59E0B" stroke="#B45309" stroke-width="1.5" transform="rotate(-15)"/>
+      <ellipse cx="-30" cy="-10" rx="22" ry="12" fill="#FCD34D" transform="rotate(-15)"/>
+      <circle cx="-28" cy="-10" r="3" fill="#78350F" opacity="0.3"/>
+
+      <ellipse cx="25" cy="-15" rx="26" ry="16" fill="#F59E0B" stroke="#B45309" stroke-width="1.5" transform="rotate(25)"/>
+      <ellipse cx="25" cy="-15" rx="20" ry="11" fill="#FCD34D" transform="rotate(25)"/>
+
+      <ellipse cx="0" cy="15" rx="32" ry="20" fill="#D97706" stroke="#92400E" stroke-width="1.5" transform="rotate(5)"/>
+      <ellipse cx="0" cy="15" rx="26" ry="14" fill="#FBBF24" transform="rotate(5)"/>
+      <circle cx="0" cy="15" r="4" fill="#78350F" opacity="0.25"/>
+
+      <ellipse cx="40" cy="10" rx="20" ry="14" fill="#F59E0B" stroke="#B45309" stroke-width="1" transform="rotate(-10)"/>
+      <ellipse cx="-45" cy="10" rx="22" ry="13" fill="#F59E0B" stroke="#B45309" stroke-width="1" transform="rotate(35)"/>
+
+      <!-- Curry leaves hint -->
+      <path d="M-10 -25 C-5 -32 5 -32 10 -25 C5 -22 -5 -22 -10 -25 Z" fill="#15803D" transform="rotate(-20)"/>
+      <path d="M15 28 C20 22 28 24 30 30 C24 32 18 31 15 28 Z" fill="#166534"/>
+    </g>
+
+    <!-- Bottom Features & Amazon Badge -->
+    <rect x="110" y="370" width="180" height="24" rx="12" fill="#292524" opacity="0.85"/>
+    <text x="200" y="386" font-family="sans-serif" font-size="10" font-weight="600" fill="#FEF3C7" text-anchor="middle">Tea-Time &amp; Everyday Snacking</text>
+
+    <!-- Amazon Availability Strip -->
+    <rect x="120" y="405" width="160" height="28" rx="14" fill="#FF9900"/>
+    <text x="200" y="423" font-family="sans-serif" font-size="11" font-weight="700" fill="#111" text-anchor="middle">Available on Amazon.in</text>
+  </g>
+</svg>

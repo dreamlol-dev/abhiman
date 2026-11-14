@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C1818"/>
+      <stop offset="60%" stop-color="#540D0D"/>
+      <stop offset="100%" stop-color="#2B0606"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="50%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="30" y="30" width="1140" height="570" fill="none" stroke="url(#gold)" stroke-width="2" stroke-dasharray="10,6" rx="20"/>
+
+  <!-- Left Side: Brand Text -->
+  <g transform="translate(100, 160)">
+    <rect x="0" y="0" width="220" height="34" rx="17" fill="#F59E0B" opacity="0.2"/>
+    <text x="110" y="22" font-family="sans-serif" font-size="14" font-weight="700" fill="#FDE68A" text-anchor="middle" letter-spacing="2">AUTHENTIC INDIAN SNACKS</text>
+
+    <text x="0" y="110" font-family="'Georgia', serif" font-size="76" font-weight="bold" fill="#FFFBEB" letter-spacing="4">ABHIMAN</text>
+    
+    <text x="0" y="170" font-family="sans-serif" font-size="32" font-weight="600" fill="#FBBF24">Traditional Indian Flavours, Made with Care</text>
+    
+    <text x="0" y="220" font-family="sans-serif" font-size="20" fill="#F3EBDD">Quality Banana Chips &amp; Special Homemade Fruit Chaat Masala.</text>
+    <text x="0" y="250" font-family="sans-serif" font-size="20" fill="#F3EBDD">Available locally and conveniently across India on Amazon.</text>
+
+    <!-- Trust pill -->
+    <rect x="0" y="290" width="380" height="42" rx="21" fill="#FFFBEB" opacity="0.1"/>
+    <text x="190" y="316" font-family="sans-serif" font-size="16" font-weight="600" fill="#FEF3C7" text-anchor="middle">Locally loved • Made for everyday enjoyment</text>
+  </g>
+
+  <!-- Right Side: Product Badges -->
+  <g transform="translate(850, 150)">
+    <!-- Banana chips preview card -->
+    <rect x="0" y="0" width="250" height="150" rx="16" fill="#FFFBEB"/>
+    <text x="125" y="45" font-family="sans-serif" font-size="18" font-weight="800" fill="#7C1818" text-anchor="middle">Banana Chips</text>
+    <text x="125" y="70" font-family="sans-serif" font-size="13" fill="#78350F" text-anchor="middle">Crispy &amp; Savoury</text>
+    <rect x="35" y="95" width="180" height="32" rx="16" fill="#FF9900"/>
+    <text x="125" y="116" font-family="sans-serif" font-size="12" font-weight="700" fill="#111" text-anchor="middle">Shop on Amazon</text>
+
+    <!-- Chaat Masala preview card -->
+    <rect x="0" y="180" width="250" height="150" rx="16" fill="#FFFBEB"/>
+    <text x="125" y="225" font-family="sans-serif" font-size="18" font-weight="800" fill="#7C1818" text-anchor="middle">Fruit Chaat Masala</text>
+    <text x="125" y="250" font-family="sans-serif" font-size="13" fill="#78350F" text-anchor="middle">Special Homemade</text>
+    <rect x="35" y="275" width="180" height="32" rx="16" fill="#FF9900"/>
+    <text x="125" y="296" font-family="sans-serif" font-size="12" font-weight="700" fill="#111" text-anchor="middle">Shop on Amazon</text>
+  </g>
+</svg>

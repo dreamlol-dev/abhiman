@@ -1,0 +1,19 @@
+{
+  "name": "abhiman",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "autoprefixer": "^10.6.2",
+    "lucide": "^1.73.0",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^4.3.5",
+    "vite": "^6.4.6"
+  }
+}
