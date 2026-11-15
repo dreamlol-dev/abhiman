@@ -148,7 +148,7 @@ export function renderFooter() {
         <div class="mt-6 pt-4 border-t border-stone-800/80 flex items-center justify-center gap-2 text-[11px] sm:text-xs text-stone-400">
           <span>Made by</span>
           <a 
-            href="${footer.madeBy?.url || 'https://github.com/dreamlol-dev'}" 
+            href="${footer.madeBy?.url || 'https://dreamlol.in'}" 
             target="_blank" 
             rel="noopener noreferrer" 
             class="inline-flex items-center gap-1.5 font-medium text-stone-200 hover:text-white transition-colors group"

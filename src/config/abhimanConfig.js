@@ -265,7 +265,7 @@ export const abhimanConfig = {
       text: 'Made by',
       name: 'Dreamlol',
       logo: './dreamlol-for-dark.png',
-      url: 'https://github.com/dreamlol-dev',
+      url: 'https://dreamlol.in',
     },
     disclaimer:
       'Abhiman is an Indian food brand. Product availability, shipping timelines, and customer returns are fulfilled in accordance with Amazon India policies.',
