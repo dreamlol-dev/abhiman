@@ -144,6 +144,25 @@ export function renderFooter() {
           ${footer.disclaimer}
         </div>
 
+        <!-- Made by Dreamlol Attribution -->
+        <div class="mt-6 pt-4 border-t border-stone-800/80 flex items-center justify-center gap-2 text-[11px] sm:text-xs text-stone-400">
+          <span>Made by</span>
+          <a 
+            href="${footer.madeBy?.url || 'https://github.com/dreamlol-dev'}" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="inline-flex items-center gap-1.5 font-medium text-stone-200 hover:text-white transition-colors group"
+          >
+            <img 
+              src="${footer.madeBy?.logo || './dreamlol-for-dark.png'}" 
+              alt="Dreamlol" 
+              class="w-5 h-5 object-contain group-hover:scale-110 transition-transform" 
+              loading="lazy"
+            />
+            <span class="font-semibold text-xs tracking-wide text-white group-hover:text-amber-300 transition-colors">${footer.madeBy?.name || 'Dreamlol'}</span>
+          </a>
+        </div>
+
       </div>
     </footer>
   `;
